@@ -1,0 +1,25 @@
+{
+ "name": "Student Adviser",
+ "description": "Input and update student grades",
+ "author": {
+  "name": "Venkat",
+  "email": "venkat@gmail.com"
+ },
+ "version": "0.1.0",
+ "binaryname": "my-project",
+ "frontend": {
+  "dir": "frontend",
+  "install": "npm install",
+  "build": "npx ng build --single-bundle true --output-hashing none --prod --bundle-styles false",
+  "bridge": "src",
+  "serve": "npm run serve"
+ },
+ "tags": "",
+ "WailsVersion": "",
+ "CrossCompile": false,
+ "Platform": "",
+ "Architecture": "",
+ "LdFlags": "",
+ "GoPath": "",
+ "UseFirebug": false
+}
